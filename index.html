@@ -10,17 +10,30 @@
 
 <body>
 
+<!--https://jeremybrunet.fr/jeu-du-pendu-javascript/-->
+
 <h1>Jeu du pendu</h1>
 <h4>mot à deviner : </h4>
-<span>_</span>
-<span>_</span>
-<span>_</span>
-<span>_</span>
-<span>_</span>
-<span>_</span>
-<h4>mauvaise lettre : </h4>
-<input type="text">
+<div id="pendu">
+    <div id="penduImg">
+        <img src="" alt="">
+    </div>
+
+
+    <span>_</span>
+    <span>_</span>
+    <span>_</span>
+    <span>_</span>
+    <span>_</span>
+    <span>_</span>
+</div>
+
+<div id="wrongLetter">
+    <h4>mauvaise lettre : </h4>
+    <input type="text"> <br>
+</div>
 <button id="btn">restart game</button>
+
 <h2>Presse sur une touche de ton clavier ou clique sur un des boutons</h2>
 
 <div id="alphabet">
